@@ -1,0 +1,57 @@
+@media screen and (width<=375px) {
+    .container{
+        margin: 2rem 15rem;
+    }
+    body{
+        max-width: 375px;
+    }
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    display: block;
+    margin: 5rem 34rem;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 15rem;
+    height: 25rem;
+    border: 1% solid white;
+    background-color: white;
+    border-radius: 1rem;
+}
+#qr{
+    max-width: auto;
+    max-height: auto;
+    border: 2px;
+    border-radius: 1rem;
+}
+@font-face {
+    font-family: "myFont";
+    src: url("./Jost-font/Jost-Italic-VariableFont_wght.ttf") format("truetype"),
+        url("./Jost-font/Jost-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: normal;
+}
+p{
+    font-family: "myFont", serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(80,80,80,0.9);
+    line-height: normal;
+}
+#first{
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.attribution{
+    visibility: hidden;
+}
